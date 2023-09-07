@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+.ContainerBody{
+    height: 150px;
+    width: 370px;
+    background-color: rgb(236, 27, 27);
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family:"Poppins", sans-serif;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.ContainerBody img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ContainerBodyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.ContainerBodyText h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.ContainerBodyText h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #111827;
+}
+
+.BodyTextHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.BodyTextHolderP{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    
+}
+
+.BodyTextHolderP1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.BodyTextHolderP2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+
+.texts{
+    margin: 8px;
+}
